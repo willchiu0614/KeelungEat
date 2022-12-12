@@ -1,0 +1,45 @@
+/*{
+	border:1px solid black;
+}*/
+
+.header_flat {
+    text-align: center;
+    color: #808080;
+    padding-top: 1.5vh;
+    margin: 0px;
+}
+.logo_text{
+position: relative;
+padding-right: 0;
+top:5px;
+	font-weight: bolder;
+	color: #00b8a6;
+	font-size: 20px;
+}
+.logo_img{
+	width:35px;
+    height:35px;
+}
+.header_title {
+
+}
+.title_style{
+	width:100%;
+	position: absolute;
+}
+
+.header_button1 {
+position: relative;
+	right:15px;
+}
+
+.header_button2 {
+position: relative;
+	right:10px;
+}
+
+@media screen and (max-width:800px) {
+	.navbar{
+	margin-top: 30px;
+}
+}

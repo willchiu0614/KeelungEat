@@ -1,0 +1,40 @@
+.background {
+    height: 100%;
+    background-image: url('../../assets/image/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.container-center {
+    height: 100%;
+}
+
+.content-center {
+    height: 80%;
+}
+.btn_all{
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.9);
+	border-color: #c4c4c4;
+
+}
+.btn_res{
+	margin: -1px 0 0 -1px;
+	border-radius: 5px;
+}
+@media screen and (max-width:800px) {
+.btn_all{
+
+/*flex-direction:row;*/
+padding: 0;
+}
+table{
+    background-color: white;
+    opacity: 0.9;
+	}}
